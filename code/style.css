@@ -22,3 +22,7 @@ body{
 .titulo span{
     font-size: 2rem;
 }
+
+.nav-principal{
+    background-color: var(--secundario);
+}
