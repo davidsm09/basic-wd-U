@@ -6,6 +6,8 @@
     --gris: #757575;
 }
 
+
+
 html{
     font-size: 62.5%;
 }
@@ -34,6 +36,24 @@ body{
 
 .nav-principal{
     
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-principal a{
+    
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+    transition: ease-in .2s;
+}
+.nav-principal a:hover {
+    cursor: pointer;
+    background-color: var(--primario);
+    color: var(--oscuro);
+    transition: ease-in .2s;
 }
 
 
