@@ -6,11 +6,11 @@
     --gris: #757575;
 }
 
-
+/* globales */
 
 html{
     font-size: 62.5%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* hack para box model */
 }
 
 *, *:before, *:after {
@@ -21,6 +21,8 @@ body{
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Rubik', sans-serif;
 }
+
+/* tipografias */
 
 h1 {
 font-size: 3.2rem;
@@ -37,12 +39,30 @@ h1,h2,h3 {
 
 .boton {
     background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .boton{
+        width: auto;
+    }
 }
 
 
 .titulo span{
     font-size: 1.8rem;
 }
+
+/* navegacion principal */
 
 .nav-contenedor{
     max-width: 120rem;
