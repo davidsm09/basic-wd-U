@@ -60,6 +60,14 @@ h1,h2,h3 {
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    transition: ease-in .2s;
+}
+
+.boton:hover {
+    cursor: pointer;
+    background-color: var(--primario);
+    color: var(--oscuro);
+    transition: ease-in .2s;
 }
 
 @media (min-width: 768px) {
@@ -144,8 +152,35 @@ h1,h2,h3 {
 
 /* servicios */
 
-.servicios {
+@media (min-width: 768px) {
+    .servicios{
     display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    column-gap: 2rem;
+    }
+}
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servicio h3 {
+
+}
+
+.servicio p {
+
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
