@@ -166,11 +166,12 @@ h1,h2,h3 {
 }
 
 .servicio h3 {
-
+    color: var(--secundario);
+    font-weight: normal;
 }
 
 .servicio p {
-
+    line-height: 2;
 }
 
 .servicio .iconos {
@@ -179,7 +180,7 @@ h1,h2,h3 {
     background-color: var(--primario);
     border-radius: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
 }
 
