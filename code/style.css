@@ -2,9 +2,9 @@
     --blanco: #ffffffff;
     --oscuro: #212121;
     --primario: #ffc107;
-    --secundario: #0097a7;
-    --gris: #757575;
-    --gris-claro: #dfe9f3;
+    --secundario: #24576A;
+    --gris: #313131;
+    --gris-claro: ##515A5A;
 
 }
 
@@ -30,13 +30,13 @@ html{
 body{
     font-size: 16px; /* 1rem = 10px */
     font-family: 'Rubik', sans-serif;
-    background-image: linear-gradient(to top, var(--gris-claro) 0%, var(--blanco) 100%);
+    background-color: var(--oscuro);
 }
 
 .sombra {
     
-    box-shadow: 1px 2px 17px -1px rgba(71,71,71,1);
-    background-color: var(--blanco);
+    box-shadow: 1px 2px 17px -1px var(--secundario);
+    background-color: var(--gris);
     padding: 3rem;
     border-radius: .5rem;
 }
@@ -45,9 +45,11 @@ body{
 
 h1 {
 font-size: 3.2rem;
+color: var(--blanco);
 }
 h2 {
 font-size: 2.2rem;
+color: var(--primario);
 }
 h3 {
 font-size: 1.6rem;
@@ -192,13 +194,14 @@ h1,h2,h3 {
 }
 
 .servicio h3 {
-    color: var(--secundario);
+    color: var(--blanco);
     font-weight: normal;
 }
 
 .servicio p {
     line-height: 2;
     text-align: center;
+    color: var(--blanco);
 }
 
 .servicio .iconos {
@@ -226,7 +229,7 @@ h1,h2,h3 {
 }
 
 .formulario legend {
-    color: var(--primario);
+    color: var(--blanco);
     text-align: center;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -272,6 +275,7 @@ h1,h2,h3 {
     height: 10rem;
     padding: 2rem;
     text-align: center;
+    color: var(--blanco);
 }
 
 
